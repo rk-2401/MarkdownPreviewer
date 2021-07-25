@@ -28,8 +28,9 @@ h3{
     flex-direction: column;
     flex-wrap: wrap;
 }
-@media(min-width:780px){
+@media(max-width:780px){
     #editor{
         width:80vw;
+        height:32vh;
     }
 }
