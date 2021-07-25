@@ -23,7 +23,7 @@ class Editor extends React.Component{
         
         return(
             <div id="outer-most" className="container">
-                <h1 className="text-center"><u>Markdown Previewer</u></h1>
+                <u><h1 className="text-center">Markdown Previewer</h1></u>
                 <div id="col-div">
                     <div>
                     <h3>Markdown:</h3>
