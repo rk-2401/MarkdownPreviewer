@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+body{
+    background-color: cadetblue;
+}
+div{
+    margin: auto;
+}
+h3{
+    font-family: 'Roboto+Mono';
+    font-weight: 500;
+    display: swap;
+}
+#editor{
+    width: 40vw;
+    height: 15vw;
+    padding: 0.5vw;
+}
+#preview{
+    margin: auto;
+    min-width: 60vw;
+    min-height: 20vw;
+    background-color: white;
+    padding: 1vw;
+}
+#col-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
